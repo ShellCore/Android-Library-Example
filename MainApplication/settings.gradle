@@ -1,1 +1,3 @@
-include ':app'
+include ':app', ':toolbarlib'
+
+project(':toolbarlib').projectDir = new File('../ToolbarLibrary/toolbarlib')
